@@ -77,7 +77,7 @@ class SimulationRun(BaseModel):
 G = 9.81          # m/s^2
 RHO_AIR = 1.2     # kg/m^3
 ETA_DRIVE = 0.90  # battery -> wheels (inverter + motor + gearbox)
-ETA_REGEN = 1.5  # wheels -> battery (lower than drive: friction brakes, losses)
+ETA_REGEN = 0.65  # wheels -> battery (lower than drive: friction brakes, losses)
 ROT_INERTIA = 1.05  # equivalent-mass factor for rotating parts
 DT = 1.0          # s
 
